@@ -1,0 +1,4 @@
+interface:
+  display_name: "Goal Score Dashboard"
+  short_description: "Turn a personal goal into an explained progress score"
+  default_prompt: "Use $goal-score-dashboard to define what progress means for my goal, research useful signals, agree on the inputs, and build a minimal dashboard."

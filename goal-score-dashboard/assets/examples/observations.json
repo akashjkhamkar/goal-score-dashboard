@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "next_action": "Practise ordering one meal. Record what you could express and what remained difficult.",
+  "dimensions": {
+    "speaking": {"value": 2, "status": "self_reported", "observed_at": "2026-01-01T12:00:00Z", "source": "Fictional check-in"},
+    "listening": {"value": 1, "status": "observed", "observed_at": "2026-01-01T12:00:00Z", "source": "Fictional task review"},
+    "practice": {"value": null, "status": "unassessed", "source": "No fictional observation supplied"}
+  }
+}

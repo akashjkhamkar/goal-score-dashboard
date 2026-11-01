@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "contract_version": "example-1",
+  "goal": "Use Spanish during a trip",
+  "score_meaning": "Documented progress on agreed travel tasks. This is not a certified language level.",
+  "scale": {"minimum": 1, "maximum": 1000},
+  "unknown_policy": "range",
+  "dimensions": [
+    {"id": "speaking", "label": "Speaking tasks", "value_meaning": "Distinct travel situations the learner reports handling.", "weight": 50, "freshness_days": 30, "rubric": {"type": "linear", "baseline": 0, "target": 10}},
+    {"id": "listening", "label": "Listening tasks", "value_meaning": "A review against an agreed listening rubric.", "weight": 30, "freshness_days": 30, "rubric": {"type": "levels", "levels": [{"value": 0, "fraction": 0, "label": "No supported task"}, {"value": 1, "fraction": 0.5, "label": "One supported task"}, {"value": 2, "fraction": 1, "label": "Repeated supported tasks"}]}},
+    {"id": "practice", "label": "Sustainable practice", "value_meaning": "Distinct practice days in the agreed period.", "weight": 20, "freshness_days": 7, "rubric": {"type": "linear", "baseline": 0, "target": 12}}
+  ]
+}
